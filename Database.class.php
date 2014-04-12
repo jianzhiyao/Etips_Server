@@ -13,11 +13,11 @@
 }*/
 	/*该文件用于设定数据库的一些信息，系统所用数据库名等都是从此文件传出*/
 	$admin_id="1008601";//管理员id
-	$_SERVER['SERVER_NAME']='sqld.duapp.com:4050';//重置服务器名
+	$_SERVER['SERVER_NAME']='';//重置服务器名
 	class Database{
-		static $database_username='dlh7tgVk6rMKZmneXZ754SGl';//所用数据库名
-		static $database_userpassword='AmRWwQcf8cnMaGPW3CIMPep5dA8R6Ico';//所用数据库密码	
-		static $selectdatabase='WzcjBJMzjCBReguGlRUD';//所选数据库
+		static $database_username='';//所用数据库名
+		static $database_userpassword='';//所用数据库密码	
+		static $selectdatabase='';//所选数据库
 		static $database_user_table='user';//用户名表
 		static $database_topiclist_table='topiclist';//话题表
 		static $database_topic_table='topic';//帖子内容
